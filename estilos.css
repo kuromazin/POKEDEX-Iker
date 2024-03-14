@@ -1,0 +1,142 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: "Luckiest Guy"
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    height: 100vh; 
+}
+
+.titulo {
+    font-family: "Luckiest Guy", cursive;
+    font-size: 48px;
+    text-align: center; 
+    color: yellow; 
+    text-shadow: -2px -2px 0 #007bff,  
+                  2px -2px 0 #007bff,
+                 -2px 2px 0 #007bff,
+                  2px 2px 0 #007bff; 
+}
+.titulo2 {
+    font-family: "Luckiest Guy", cursive;
+    font-size: 40px; 
+    color: yellow; 
+    text-shadow: -2px -2px 0 #007bff,  
+                  2px -2px 0 #007bff,
+                 -2px 2px 0 #007bff,
+                  2px 2px 0 #007bff; /
+}
+.luckiest-guy-regular {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+.pokedex1{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 50%;
+}
+.estilos-menus{
+    font-family: "Luckiest Guy", cursive;
+    font-size: 30px; 
+}
+.charmander1{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 50%;
+}
+.textosparagrafos{
+    font-family: "Honk", cursive;
+    text-align: right; 
+    padding: 20px;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    transform: translateY(-50%);
+   font-size: 30px;
+   width: 50%;
+}
+
+.honk-uniquifier{
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
+.estilos-menus2{
+    font-family: "Luckiest Guy", cursive;
+    font-size: 30px; 
+    text-align: right; 
+    padding: 20px;
+    position: absolute;
+    top: 70%;
+    right: 0;
+    transform: translateY(-50%);
+   font-size: 30px;
+   width: 50%;
+}
+.estilos-menus3{
+    font-family: "Luckiest Guy", cursive;
+    font-size: 30px; 
+    text-align: right; 
+    padding: 20px;
+    position: absolute;
+    top: 90%;
+    right: 0;
+    transform: translateY(-50%);
+   font-size: 30px;
+   width: 50%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+.charmeleon {
+    width: 700px; 
+    height: auto; 
+    position: absolute;
+    top: 60%;
+    left: -5%;
+    transform: translateY(-50%);
+}
+.estilos-menus4{
+    font-family: "Luckiest Guy", cursive;
+    font-size: 30px; 
+    text-align: right; 
+    padding: 20px;
+    position: absolute;
+    top: 80%;
+    right: 0;
+    transform: translateY(-50%);
+   font-size: 30px;
+   width: 50%;
+}
+.charizard {
+    width: 700px; 
+    height: auto; 
+    position: absolute;
+    top: 55%;
+    left: -5%;
+    transform: translateY(-50%);
+}
+.squirtle {
+    width: 500px; 
+    height: auto; 
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    transform: translateY(-50%);
+}
